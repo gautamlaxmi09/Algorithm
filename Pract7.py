@@ -1,5 +1,4 @@
 def set_cover(universe, subsets):
-    """Find a family of subsets that covers the universal set"""
     elements = set(e for s in subsets for e in s)
 
     if elements != universe:	
